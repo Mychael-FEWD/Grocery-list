@@ -1,0 +1,104 @@
+/*********************************/
+/* Included External CSS Styling */
+/*********************************/
+
+/* Global Selector for setting global rules */
+* {
+  margin-left: 1em;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Styling the h1, Change the text color */
+h1 {
+  /* Main header text color */
+  color: #1a5325;
+  font-size: 3em;
+  font-weight: 700;
+  margin-left: 0;
+}
+
+body {
+  display: block;
+}
+
+/* Flex box to control the look of the Pantry and Freezer Section */
+.grocery-pantry,
+.grocery-freezer {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  gap: 2em;
+}
+
+/* Styling for Section Heads; "Pantry Items" and "Freezer Items" */
+.section-head {
+  padding: 0.5em 1em;
+  margin-left: 0;
+  width: 24em;
+  font-weight: 700;
+  color: #171a1d;
+  border-radius: 0.2em;
+}
+
+/* Styling for Individual Categories; "Canned", "Dry Goods", "Veggies", and "Snacks" */
+.grocery-category {
+  font-weight: 300;
+  /* Margin and padding for appropriate spacing */
+  padding: 0.5em 2em;
+  margin: 1em 0.5em 1em 0;
+  width: 13em;
+  height: 12em;
+  border-radius: 0.4em;
+  /* Included border */
+  border: solid;
+  border-color: #d8f5a2;
+}
+
+/* Styling for the two Images next to the sections */
+.section-img {
+  /* width: 15em; */
+  width: 18em;
+  height: 13em;
+  align-self: center;
+  /* Padding included  */
+  padding-left: 5em;
+  margin-left: 5em;
+  border-radius: 0.2em;
+}
+
+/* Styling for the Sub-headers; headers within the Categories */
+#section-sub-head {
+  margin-left: 0;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #1e2125;
+}
+
+/* List styling */
+.grocery-items {
+  margin-left: 0;
+  color: #373b3e;
+}
+
+.items-unordered,
+ul {
+  list-style-type: circle;
+  font-size: 1.15em;
+}
+
+.items-ordered,
+ol {
+  list-style-type: lower-roman;
+  font-size: 1.15em;
+}
+
+/* Styling for fixed Image on the right of display */
+.background-img {
+  opacity: 0.8;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 34em;
+  margin: 4em 4em 0 0;
+  border-radius: 0.2em;
+}

@@ -5,22 +5,22 @@ Block 6 Workshop: Grocery list
 Grocery List Requirements
 Your list needs to meet all the following requirements.
 
--Incorporate the major HTML semantic tags.
+-Incorporate the major HTML semantic tags. /
 
--Each category of grocery should be in some type of "section".
+-Each category of grocery should be in some type of "section". /
 
--Sections should have background colors.
+-Sections should have background colors. /
 
--Section headers should have background colors.
+-Section headers should have background colors. /
 
--The main header text needs to be a different color.
+-The main header text needs to be a different color. /
 
--Use three types of headings.
+-Use three types of headings. /
 
--Include two types of lists.
+-Include two types of lists. /
 
--Use the box model to add borders and spacing to each section.
+-Use the box model to add borders and spacing to each section. /
 
--Add two photos with padding so it is nicely spaced away from the text element.
+-Add two photos with padding so it is nicely spaced away from the text element. /
 
--CSS needs to be incorporated using an external CSS file, internal in the header, and inline. You choose which CSS goes where.
+-CSS needs to be incorporated using an external CSS file, internal in the header, and inline. You choose which CSS goes where. /

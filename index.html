@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Grocery List</title>
+    <!-- Included Internal CSS Styling -->
+    <style>
+      /* Background color applied to each section */
+      .grocery-category {
+        background-color: #a5e9b0;
+      }
+      /* Background color applied to each section header */
+      .section-head {
+        background-color: #54af63;
+      }
+    </style>
+  </head>
+  <!-- Included inline CSS Styling -->
+  <body style="background-color: #69db7c">
+    <header>
+      <!-- Main Heading -->
+      <h1>Grocery List - Let's Go Shopping!!</h1>
+    </header>
+    <main>
+      <!-- Pantry Items  -->
+      <!-- Secondary Heading -->
+      <h2 class="section-head">Pantry Items</h2>
+      <div class="grocery-pantry">
+        <!-- Section for grocery catergory -->
+        <section class="grocery-category">
+          <!-- Tertiary Heading -->
+          <h3 id="section-sub-head">Canned</h3>
+          <!-- Unordered List -->
+          <ul class="grocery-items, items-unordered">
+            <li>Corn</li>
+            <li>Green Beans</li>
+            <li>Tomatoes</li>
+            <li>Beans</li>
+          </ul>
+        </section>
+        <!-- Section for grocery catergory -->
+        <section class="grocery-category">
+          <!-- Tertiary Heading -->
+          <h3 id="section-sub-head">Dry Goods</h3>
+          <!-- Unordered List -->
+          <ul class="grocery-items, items-unordered">
+            <li>Rice</li>
+            <li>Cereal</li>
+            <li>Oats</li>
+            <li>Flour</li>
+          </ul>
+        </section>
+        <img
+          src="img/grocery-2.jpg"
+          alt="Grocery Store isle"
+          class="section-img"
+        />
+      </div>
+      <!-- Freezer Items -->
+      <!-- Secondary Heading -->
+      <h2 class="section-head">Freezer Items</h2>
+      <div class="grocery-freezer">
+        <!-- Section for grocery catergory -->
+        <section class="grocery-category">
+          <!-- Tertiary Heading -->
+          <h3 id="section-sub-head">Veggies</h3>
+          <!-- Ordered List -->
+          <ol class="grocery-items, items-ordered">
+            <li>Broccoli</li>
+            <li>Carrots</li>
+            <li>Cauliflower</li>
+            <li>Bell Peppers</li>
+          </ol>
+        </section>
+        <!-- Section for grocery catergory -->
+        <section class="grocery-category">
+          <!-- Tertiary Heading -->
+          <h3 id="section-sub-head">Snacks</h3>
+          <!-- Ordered List -->
+          <ol class="grocery-items, items-ordered">
+            <li>Chicken Nuggets</li>
+            <li>Pizza Rolls</li>
+            <li>Fries</li>
+            <li>Tater Tots</li>
+          </ol>
+        </section>
+        <img
+          src="img/grocery-1.jpg"
+          alt="Grocery store frozen section"
+          class="section-img"
+        />
+      </div>
+      <!-- Fixed Side Img -->
+      <img
+        src="img/grocery-3.avif"
+        alt="Grocery store produce"
+        class="background-img"
+      />
+    </main>
+  </body>
+</html>
